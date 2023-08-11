@@ -10,7 +10,7 @@ module.exports = function (num) {
   }
   while(secondValue <= 0){
     sum = firstValue + secondValue;
-    firstValue = secondValue;
+    firstValue = seconValue;
     secondValue = sum;
     if(firstValue % 2 !== 0){
       store.push(firstValue);
